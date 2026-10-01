@@ -5,3 +5,7 @@
   align-items: center;
   min-height: 100vh;
 }
+.center img {
+  max-width: 100%;
+  height: auto;
+}
