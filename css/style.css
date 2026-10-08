@@ -3,9 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 .center img {
   max-width: 100%;
   height: auto;
+}
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 20rm;
 }
