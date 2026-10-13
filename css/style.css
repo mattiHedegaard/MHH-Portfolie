@@ -230,7 +230,7 @@ ________________________________________________________________________________
   top: 50%;
   left: 0;
   right: 10px;
-  border-top: 3px dashed white;
+  border-top: 3px dashed #EEF4ED;
   transform: translateY(-50%);
   z-index: 0;
 }
@@ -243,7 +243,7 @@ ________________________________________________________________________________
   transform: translateY(-50%);
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
-  border-left: 16px solid white;
+  border-left: 16px solid #EEF4ED;
   z-index: 0;
 }
 
@@ -262,7 +262,7 @@ ________________________________________________________________________________
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: white;
+  background: #EEF4ED;
   transform: translateY(-50%);
   z-index: 0;
 }
