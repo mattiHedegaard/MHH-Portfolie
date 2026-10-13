@@ -3,8 +3,8 @@
     <div class="navigationBar">
         <div class="profile">
             <img src="images/mattiKliterne.jpg" alt="Billede af Matti Hedegaard Hansen">
-            <p>Matti Hedegaard Hansen</p>
-            <p>Computer Ingeniør</p>
+            <p id="nbName">Matti Hedegaard Hansen</p>
+            <p id="nbTitle">Computer Ingeniør</p>
         </div>
 
         <!--Menu buttons-->
@@ -35,35 +35,41 @@
     </div>
 
     <!--right Timeline div-->
-    <div>
+    <div class="timeline">
         <!--title and text (horizotnal)-->
-        <div>
-            <h1>Matti Hedegaard</h1>
-            <h1>Hansen</h1>
-            <p>some text to be replaced</p>
+        <div class="timelineText">
+            <p id="tlTitle1">Matti Hedegaard</p>
+            <p id="tlTitle2">Hansen</p>
+            <p id="tlText">some text to be replaced</p>
         </div>
 
         <!--top of timeline (vertical)-->
-        <!--first box (vertical)-->
-        <div>
-            <p>Uddanelse</p>
-            <p>beskrivelse</p>
-        </div>
+        <div class="timelineRow1 timelineRow">
+            <!--first box (vertical)-->
+            <div class="timelineTextbox">
+                <h1>EUX<br>Personvognsmekaniker</h1>
+                <p>beskrivelse</p>
+            </div>
 
-        <!--First icon-->
-        <img src="images/EUXIcon.png" alt="EUX Icon">
+            <!--First icon-->
+            <img class="timelineImage" src="images/EUXIcon.png" alt="EUX Icon">
 
-        <!--second box (vertical)-->
-        <div>
-            <p>Uddannelse</p>
-            <p>some text to be replaced</p>
-        </div>
+            <!--second box (vertical)-->
+            <div class="timelineTextbox">
+                <h1>Medialogi</h1>
+                <p>some text to be replaced</p>
+            </div>
 
-        <!--second image-->
-        <img src="images/medialogyIcon.png" alt="Medialogy Icon">
+            <!--second image-->
+            <img class="timelineImage" src="images/medialogyIcon.png" alt="Medialogy Icon">
+        </div>    
 
+        
         <!--Timeline arrow-->
-        <div>
+        <div class="timelineArrow">
+            <!--arrow-->
+            <div class="timelineStart"></div>
+
             <!--First year div-->
             <div>
                 <p>2017-2022</p>
@@ -94,24 +100,22 @@
         </div>
 
         <!--Bottom of timeline (vertical)-->
-        <div>
-            
-
+        <div class="timelineRow2 timelineRow">
             <!--First icon-->
-            <img src="images/engineIcon.png" alt="EUX Icon">
+            <img class="timelineImage" src="images/engineIcon.png" alt="EUX Icon">
 
             <!--first box (vertical)-->
-            <div>
-                <p>Uddannelse</p>
+            <div class="timelineTextbox row2">
+                <h1>Mekaniker Svend</h1>
                 <p>some text to be replaced</p>
             </div>
 
             <!--second image-->
-            <img src="images/CEIcon.png" alt="Computer ingenør Icon">
+            <img class="timelineImage" src="images/CEIcon.png" alt="Computer ingenør Icon">
 
             <!--second box (vertical)-->
-            <div>
-                <p>Uddanelse</p>
+            <div class="timelineTextbox row2">
+                <h1>Computer Ingenør</h1>
                 <p>beskrivelse</p>
             </div>
         </div>
