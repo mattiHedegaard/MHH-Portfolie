@@ -3,7 +3,7 @@
     <head>
         <title>Matti Hedegaard - Portfolie</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="main" href="js/style.css">
+        <script src="js/main.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
