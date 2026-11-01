@@ -1,47 +1,3 @@
-/* placeholder */
-.center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.center img {
-  max-width: 100%;
-  height: auto;
-}
-.horizontal {
-  display: flex;
-  flex-direction: row;
-}
-
-/*test*/
-.border {
-  border-style: dotted;
-  border-color: brown;
-  border-width: 3px;
-  box-sizing: border-box;
-}
-
-/* basic setup */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat";
-  background-color: #0B2545;
-  color: #EEF4ED;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-/* pages */
-
 /*
 _______________________________________________________________________________________________________________________________________
 
@@ -90,6 +46,23 @@ ________________________________________________________________________________
   padding-left: 20px;
   padding-right: 20px;
 }
+.navigationBtn {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.navigationBtn:hover {
+    background-color: #EEF4ED;
+    transform: translateX(15px);
+}
+
+.navigationBtn:hover img {
+    transform: scale(1.4);
+}
+
+.navigationBtn img {
+    transition: transform 0.2s ease;
+}
 
 .profile{
   display: flex;
@@ -126,6 +99,29 @@ ________________________________________________________________________________
 }
 
 /*-------------timeline---------------*/
+/* hidden from the first paint, no JS needed for this part */
+.timelineRow > *,
+.timelineArrow > :not(.timelineStart) {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.timelineRow > img {
+    transform: scale(0.6);          /* icons grow in instead of sliding */
+}
+
+/* must come after the rules above */
+.timeline .show {
+    opacity: 1;
+    transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .timelineRow > *,
+    .timelineArrow > :not(.timelineStart) { transition: none; }
+}
+
 .timeline {
   margin-left: 132px;
   margin-right: 132px;

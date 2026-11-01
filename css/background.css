@@ -1,0 +1,158 @@
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #134074;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navigationBtn {
+    background-color: #8DA9C4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #0B2545;
+    border-width: 7px;
+
+    color: #134074;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navigationBtn p {
+    max-width: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    transition: max-width 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.navigationBtn:hover p {
+    max-width: 200px;
+    opacity: 1;
+}
+
+.navigationBtn {
+    cursor: pointer;
+}
+
+.navigationBtn img{
+  width: 70px;
+  height: 70px;
+}
+.navigationBtn {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.navigationBtn:hover {
+    background-color: #EEF4ED;
+    transform: scale(1.1);
+}
+
+.navigationBtn:hover img {
+    transform: scale(1.1);
+}
+
+.navigationBtn img {
+    transition: transform 0.2s ease;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    width: 1750px;
+    margin: 50px auto 0;
+    color: #EEF4ED;
+}
+
+.pageDescription {
+    border-style: solid;
+    border-color: #8da9c4;
+    border-top-width: 0px;
+    border-bottom-width: 7px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 50px;
+}
+
+.pageDescription p {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.pageDescription h1 {
+    font-size: 48px;
+}
+
+.backgroundDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.bgBox {
+    background-color: #134074;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 25px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+    border-color: #EEF4ED;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.bgBoxEx {
+    background-color: #8DA9C4;
+    border-color: #EEF4ED;
+    color: #134074;
+}
+
+.bgBox p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bgBox h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.year {
+    background-color: #8DA9C4;
+    height: 30px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.year p {
+    margin: 0;
+    font-weight: 750;
+    color: #134074;
+}
+
+.yearEx {
+    background-color: #134074;
+}
+
+.yearEx p{
+    color: #EEF4ED;
+}

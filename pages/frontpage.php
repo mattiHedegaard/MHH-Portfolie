@@ -1,36 +1,38 @@
+
+
 <span class="frontpage">
     <!--Left navigation menu div-->
     <div class="navigationBar">
         <div class="profile">
             <img src="images/mattiKliterne.jpg" alt="Billede af Matti Hedegaard Hansen">
-            <p id="nbName">Matti Hedegaard Hansen</p>
-            <p id="nbTitle">Computer Ingeniør</p>
+            <p id="nbName"><?= t('matti_h_h') ?></p>
+            <p id="nbTitle"><?= t('title') ?></p>
         </div>
 
         <!--Menu buttons-->
-        <div class="navigationBtn" onclick="location.href='index.php?page=frontpage'">
+        <div class="navigationBtn" onclick="location.href='<?= url('frontpage') ?>'">
             <img src="images/HomeIcon.png" alt="Home icon">
-            <p>Forside</p>
+            <p><?= t('nav_home') ?></p>
         </div>
 
-        <div class="navigationBtn" onclick="location.href='index.php?page=projects'">
-            <img src="images/projectIcon.png" alt="Home icon">
-            <p>Projekter</p>
+        <div class="navigationBtn" onclick="location.href='<?= url('projects') ?>'">
+            <img src="images/projectIcon.png" alt="Projects icon">
+            <p><?= t('nav_projects') ?></p>
         </div>
 
-        <div class="navigationBtn" onclick="location.href='index.php?page=background'">
-            <img src="images/backgroundIcon.png" alt="Home icon">
-            <p>Baggrund</p>
+        <div class="navigationBtn" onclick="location.href='<?= url('background') ?>'">
+            <img src="images/backgroundIcon.png" alt="Background icon">
+            <p><?= t('nav_background') ?></p>
         </div>
 
-        <div class="navigationBtn" onclick="location.href='index.php?page=about'">
-            <img src="images/aboutIcon.png" alt="Home icon">
-            <p>Mere om mig</p>
+        <div class="navigationBtn" onclick="location.href='<?= url('about') ?>'">
+            <img src="images/aboutIcon.png" alt="About icon">
+            <p><?= t('nav_about') ?></p>
         </div>
 
-        <div class="navigationBtn" onclick="location.href='index.php?page=contact'">
-            <img src="images/contactIcon.png" alt="Home icon">
-            <p>Kontakt</p>
+        <div class="navigationBtn" onclick="location.href='<?= url('contact') ?>'">
+            <img src="images/contactIcon.png" alt="Contact icon">
+            <p><?= t('nav_contact') ?></p>
         </div>
     </div>
 
@@ -40,28 +42,28 @@
         <div class="timelineText">
             <p id="tlTitle1">Matti Hedegaard</p>
             <p id="tlTitle2">Hansen</p>
-            <p id="tlText">Hej og velkommen til mit portfolie, her kan du se et lille overblik over min vej fra at skrue i biler til at udvikle software og indlejrede systemer.</p>
+            <p id="tlText"><?= t('fp_text') ?></p>
         </div>
 
         <!--top of timeline (vertical)-->
         <div class="timelineRow1 timelineRow">
             <!--first box (vertical)-->
             <div class="timelineTextbox">
-                <h1>EUX<br>Personvognsmekaniker</h1>
-                <p>Min karriere startede i Viborg. Her har jeg været i lære som mekaniker hos Bosch Car Service Viborg, hvor jeg sammen med mit svendebrev også har bestået en studentereksamen.</p>
+                <h1><?= t('fp_eux_title') ?></h1>
+                <p><?= t('fp_eux_text') ?></p>
             </div>
 
             <!--First icon-->
-            <img class="timelineImage" src="images/EUXIcon.png" alt="EUX Icon">
+            <img class="timelineImage" src="images/mekanikerIcon.png" alt="EUX Icon">
 
             <!--second box (vertical)-->
             <div class="timelineTextbox">
-                <h1>Medialogi</h1>
-                <p>Jeg flyttede derefter til Aalborg hvor jeg har læst en bachelor i Medialogi, som er en medieteknologisk usddannelse med fokus på programmering og design.</p>
+                <h1><?= t('fp_medialogy_title') ?></h1>
+                <p><?= t('fp_medialogy_text') ?></p>
             </div>
 
             <!--second image-->
-            <img class="timelineImage" src="images/medialogyIcon.png" alt="Medialogy Icon">
+            <img class="timelineImage" src="images/CEIcon.png" alt="Medialogy Icon">
         </div>    
 
         
@@ -102,21 +104,21 @@
         <!--Bottom of timeline (vertical)-->
         <div class="timelineRow2 timelineRow">
             <!--First icon-->
-            <img class="timelineImage" src="images/engineIcon.png" alt="EUX Icon" style="width: 185px; height: auto;">
+            <img class="timelineImage" src="images/EUXIcon.png" alt="EUX Icon" style="width: 185px; height: auto;">
 
             <!--first box (vertical)-->
             <div class="timelineTextbox row2">
-                <h1>Mekaniker Svend</h1>
-                <p>Efter at jeg færdiggjorde min EUX-uddannelse, arbejde jeg som uddannet svend hos Bosch Car Service Viborg.</p>
+                <h1><?= t('fp_mechanic_title') ?></h1>
+                <p><?= t('fp_mechanic_text') ?></p>
             </div>
 
             <!--second image-->
-            <img class="timelineImage" src="images/CEIcon.png" alt="Computer ingenør Icon">
+            <img class="timelineImage" src="images/medialogyIcon.png" alt="Computer ingenør Icon">
 
             <!--second box (vertical)-->
             <div class="timelineTextbox row2">
-                <h1>Computer Ingenør</h1>
-                <p>På nuværende tidspunkt læser jeg en kandidat til civilingør i computer teknologi med specialle i netværk og distribuerede systemer.</p>
+                <h1><?= t('fp_ce_title') ?></h1>
+                <p><?= t('fp_ce_text') ?></p>
             </div>
         </div>
     </div>

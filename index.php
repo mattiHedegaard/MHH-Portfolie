@@ -1,35 +1,32 @@
 <?php
-include("includes/header.php");
+$pages = ['frontpage', 'projects', 'background', 'about', 'contact'];
+$langs = ['da', 'en'];
 
-$page = $_GET['page'] ?? "frontpage";
+$page = $_GET['page'] ?? 'frontpage';
+$lang = $_GET['lang'] ?? 'da';
 
-switch ($page){
-    case "frontpage":
-        include("pages/frontpage.html");
-        break;
-
-    case "projects":
-        include("pages/projects.html");
-        break;
-
-    case "about":
-        include("pages/about.html");
-        break;
-
-    case "contact":
-        include("pages/contact.html");
-        break;
-
-    case "background":
-        include("pages/background.html");
-        break;
-    
-    default:
-        http_response_code(404);
-        include("pages/404.html");
-        break;
+if (!in_array($lang, $langs, true)) {
+    $lang = 'da';
 }
 
-include("includes/footer.php");
+if (!in_array($page, $pages, true)) {
+    http_response_code(404);
+    $page = '404';
+}
 
-?>
+$strings = require "lang/$lang.php";
+
+function t(string $key): string {
+    global $strings;
+    return nl2br(htmlspecialchars($strings[$key] ?? $key));
+}
+
+function url(string $page, ?string $l = null): string {
+    global $lang;
+    $l ??= $lang;
+    return "index.php?page=$page&lang=$l";
+}
+
+include 'includes/header.php';
+include "pages/$page.php";
+include 'includes/footer.php';
