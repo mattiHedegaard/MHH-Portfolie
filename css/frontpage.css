@@ -16,6 +16,7 @@ ________________________________________________________________________________
   display: flex;
   flex-direction: column;
   width: 525px;
+  height: 100vh;
   background-color: #134074;
   
 }
