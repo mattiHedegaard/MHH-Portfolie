@@ -1,3 +1,8 @@
+
+body {
+    margin-bottom: 100px;
+}
+
 .navigationBar {
     display: flex;
     flex-direction: row;
@@ -66,6 +71,8 @@
     transition: transform 0.2s ease;
 }
 
+/*
+
 .pageContent {
     display: flex;
     flex-direction: column;
@@ -99,6 +106,9 @@
     margin-top: 50px;
     font-size: 24px;
     justify-content: space-between;
+}
+.bgDiv {
+    margin-bottom: 50px;
 }
 
 .bgBox {
@@ -155,4 +165,212 @@
 
 .yearEx p{
     color: #EEF4ED;
+}
+
+.columnTitle {
+    padding-bottom: 30px;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: #8DA9C4;
+    border-top-width: 0px;
+    border-bottom-width: 7px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.skillsDiv {
+    padding-bottom: 50px;
+    border-bottom: 7px solid #8DA9C4;
+}
+
+.skillBox {
+    height: 250px;
+    width: 350px;
+    background-color: #134074;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 25px;
+}
+
+.skillBoxes {
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.skillTitle {
+    background-color: #8DA9C4;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #134074;
+    font-weight: 750;
+}
+
+.skillList {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+*/
+
+/* Background page. Everything is scoped under .bgPage so it can't clash with other pages. */
+
+.bgPage {
+    --navy: #0B2545;
+    --blue: #134074;
+    --light: #8DA9C4;
+    --text: #EEF4ED;
+
+    display: flex;
+    flex-direction: column;
+    gap: 72px;                      /* one gap controls the space between all sections */
+    width: min(1400px, 100%);
+    margin: 0 auto;
+    padding: 56px 32px 80px;
+    box-sizing: border-box;
+    color: var(--text);
+}
+
+/* Intro */
+.bgIntro {
+    padding-bottom: 40px;
+    border-bottom: 7px solid var(--light);   /* the only divider on the page */
+}
+
+.bgIntro h1 {
+    margin: 0 0 16px;
+    font-size: 56px;
+    line-height: 1.1;
+}
+
+.bgIntro p {
+    margin: 0;
+    max-width: 70ch;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* Section titles (Kompetencer, Uddannelse, Erhverv) */
+.bgSectionTitle {
+    margin: 0 0 28px;
+    font-size: 32px;
+}
+
+/* Skills */
+.skillGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.skillGroup {
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: var(--blue);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+}
+
+.skillGroup h3 {
+    margin: 0 0 16px;
+    font-size: 22px;
+}
+
+.skillGroup ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skillGroup li {
+    padding: 4px 12px;
+    background-color: var(--light);
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+/* Education and experience */
+.bgColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;             /* columns keep their own height */
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;        /* the year chip is only as wide as its text */
+    gap: 12px;
+    margin-bottom: 24px;
+    padding: 28px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.entry:last-child {
+    margin-bottom: 0;
+}
+
+.entry h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1.25;
+}
+
+.entry p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.entryYears {
+    padding: 4px 12px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Education: dark card. Experience: light card. The colour tells the two apart. */
+.entryEdu {
+    background-color: var(--blue);
+    border-color: var(--light);
+    color: var(--text);
+}
+
+.entryEdu .entryYears {
+    background-color: var(--light);
+    color: var(--navy);
+}
+
+.entryWork {
+    background-color: var(--light);
+    border-color: var(--text);
+    color: var(--navy);             /* navy, not blue: blue on light blue is too low in contrast */
+}
+
+.entryWork .entryYears {
+    background-color: var(--navy);
+    color: var(--text);
+}
+
+/* Narrow windows: stack the two columns */
+@media (max-width: 900px) {
+    .bgColumns {
+        grid-template-columns: 1fr;
+    }
 }

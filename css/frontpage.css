@@ -16,7 +16,7 @@ ________________________________________________________________________________
   display: flex;
   flex-direction: column;
   width: 525px;
-  height: 100vh;
+  height: 100svh;
   background-color: #134074;
   
 }
@@ -50,6 +50,10 @@ ________________________________________________________________________________
 .navigationBtn {
     transition: background-color 0.2s ease, transform 0.2s ease;
     cursor: pointer;
+}
+.navigationBar {
+    min-height: calc(100vh / var(--zoom));
+    box-sizing: border-box;
 }
 
 .navigationBtn:hover {
@@ -126,7 +130,7 @@ ________________________________________________________________________________
 .timeline {
   margin-left: 132px;
   margin-right: 132px;
-  width: 100%;
+  width: 1123px;
   
 }
 

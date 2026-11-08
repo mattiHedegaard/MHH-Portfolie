@@ -1,13 +1,52 @@
-<div class="center">
-    <h1>Portfolie - Mere om mig</h1>
-    <p>Under Konstruktion</p>
-    <img src="images\underKonstruktion.jpg" alt="Under konstruktion">
+<div class="navigationBar">
+    <!--Menu buttons-->
+    <div class="navigationBtn" onclick="location.href='<?= url('frontpage') ?>'">
+        <img src="images/HomeIcon.png" alt="Home icon">
+        <p><?= t('nav_home') ?></p>
+    </div>
 
-    <div class="horizontal">
-        <a href="index.php?page=frontpage">Forside</a>
-        <a href="index.php?page=projects">Projects</a>
-        <a href="index.php?page=about">About</a>
-        <a href="index.php?page=contact">Kontakt</a>
-        <a href="index.php?page=background">Baggrund</a>
+    <div class="navigationBtn" onclick="location.href='<?= url('projects') ?>'">
+        <img src="images/projectIcon.png" alt="Projects icon">
+        <p><?= t('nav_projects') ?></p>
+    </div>
+
+    <div class="navigationBtn" onclick="location.href='<?= url('background') ?>'">
+        <img src="images/backgroundIcon.png" alt="Background icon">
+        <p><?= t('nav_background') ?></p>
+    </div>
+
+    <div class="navigationBtn" onclick="location.href='<?= url('about') ?>'">
+        <img src="images/aboutIcon.png" alt="About icon">
+        <p><?= t('nav_about') ?></p>
+    </div>
+
+    <div class="navigationBtn" onclick="location.href='<?= url('contact') ?>'">
+        <img src="images/contactIcon.png" alt="Contact icon">
+        <p><?= t('nav_contact') ?></p>
+    </div>
+</div>
+
+<div class="pageContent">
+    <!--Page description-->
+    <div class="pageDescription">
+        <h1 class="pageTitle"><?= t('a_title') ?></h1>
+        <p class="pageText"><?= t('a_text') ?></p>
+    </div>
+
+    <!--abouts-->
+    <div class="about">
+        <img src="images\EUXIcon.png" alt="">
+        <div class="aboutDescription">
+            <h1 class="aboutTitle"><?= t('a_topic1_title') ?></h1>
+            <p class="aboutText"><?= t('a_topic1_text') ?></p>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="aboutDescription">
+            <h1 class="aboutTitle"><?= t('a_topic2_title') ?></h1>
+            <p class="aboutText"><?= t('a_topic2_text') ?></p>
+        </div>
+        <img src="images\EUXIcon.png" alt="">
     </div>
 </div>

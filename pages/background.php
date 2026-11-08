@@ -26,85 +26,100 @@
     </div>
 </div>
 
-<div class="pageContent">
-    <!--Page description-->
-    <div class="pageDescription">
-        <h1 class="pageTitle"><?= t('p_title') ?></h1>
-        <p class="pageText"><?= t('p_text') ?></p>
-    </div>
+<div class="bgPage">
 
-    <div class="backgroundDiv">
+    <header class="bgIntro">
+        <h1><?= t('bg_title') ?></h1>
+        <p><?= t('bg_intro') ?></p>
+    </header>
+
+    <!--Skills-->
+    <section aria-labelledby="skillsTitle">
+        <h2 class="bgSectionTitle" id="skillsTitle"><?= t('bg_skills_title') ?></h2>
+
+        <div class="skillGrid">
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_software') ?></h3>
+                <ul>
+                    <li><?= t('sk_programming') ?></li>
+                    <li><?= t('sk_ml') ?></li>
+                    <li><?= t('sk_vision') ?></li>
+                    <li><?= t('sk_unity') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_embedded') ?></h3>
+                <ul>
+                    <li><?= t('sk_arduino') ?></li>
+                    <li><?= t('sk_audio') ?></li>
+                    <li><?= t('sk_physical') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_hardware') ?></h3>
+                <ul>
+                    <li><?= t('sk_assembly') ?></li>
+                    <li><?= t('sk_cabling') ?></li>
+                    <li><?= t('sk_commissioning') ?></li>
+                    <li><?= t('sk_troubleshooting') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_methods') ?></h3>
+                <ul>
+                    <li><?= t('sk_scrum') ?></li>
+                    <li><?= t('sk_pbl') ?></li>
+                    <li><?= t('sk_userstudies') ?></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Education and experience-->
+    <div class="bgColumns">
+
         <!--Education-->
-        <div class="educationDiv">
-            <h1 class="columnTitle"><?= t('bg_education') ?></h1>
+        <section aria-labelledby="eduTitle">
+            <h2 class="bgSectionTitle" id="eduTitle"><?= t('bg_education') ?></h2>
 
-            <div class="bgBox">
-                <div class="year">
-                    <p>2017-2022</p>
-                </div>
-
-                <h1><?= t('bg_eux_title') ?></h1>
+            <article class="entry entryEdu">
+                <span class="entryYears">2017–2022</span>
+                <h3><?= t('bg_eux_title') ?></h3>
                 <p><?= t('bg_eux_text') ?></p>
-            </div>
+            </article>
 
-            <div class="bgBox">
-                <div class="year">
-                    <p>2017-2022</p>
-                </div>
+            <article class="entry entryEdu">
+                <span class="entryYears">2023–2026</span>
+                <h3><?= t('bg_bsc_title') ?></h3>
+                <p><?= t('bg_bsc_text') ?></p>
+            </article>
 
-                <h1><?= t('bg_eux_title') ?></h1>
-                <p><?= t('bg_eux_text') ?></p>
-            </div>
+            <article class="entry entryEdu">
+                <span class="entryYears">2026–2028</span>
+                <h3><?= t('bg_msc_title') ?></h3>
+                <p><?= t('bg_msc_text') ?></p>
+            </article>
+        </section>
 
-            <div class="bgBox">
-                <div class="year">
-                    <p>2017-2022</p>
-                </div>
+        <!--Experience-->
+        <section aria-labelledby="workTitle">
+            <h2 class="bgSectionTitle" id="workTitle"><?= t('bg_experience') ?></h2>
 
-                <h1><?= t('bg_eux_title') ?></h1>
-                <p><?= t('bg_eux_text') ?></p>
-            </div>
-        </div>
-
-        <!--Experiance-->
-        <div class="experianceDiv">
-            <h1 class="columnTitle"><?= t('bg_experiance') ?></h1>
-
-            <div class="bgBox bgBoxEx">
-                <div class="year yearEx">
-                    <p>2017-2022</p>
-                </div>
-
-                <h1><?= t('bg_bosch_title') ?></h1>
+            <article class="entry entryWork">
+                <span class="entryYears">2022–2023</span>
+                <h3><?= t('bg_bosch_title') ?></h3>
                 <p><?= t('bg_bosch_text') ?></p>
-            </div>
+            </article>
 
-            <div class="bgBox bgBoxEx">
-                <div class="year yearEx">
-                    <p>2017-2022</p>
-                </div>
+            <article class="entry entryWork">
+                <span class="entryYears">2023-</span>
+                <h3><?= t('bg_liqtech_title') ?></h3>
+                <p><?= t('bg_liqtech_text') ?></p>
+            </article>
+        </section>
 
-                <h1><?= t('bg_bosch_title') ?></h1>
-                <p><?= t('bg_bosch_text') ?></p>
-            </div>
-
-            <div class="bgBox bgBoxEx">
-                <div class="year yearEx">
-                    <p>2017-2022</p>
-                </div>
-
-                <h1><?= t('bg_bosch_title') ?></h1>
-                <p><?= t('bg_bosch_text') ?></p>
-            </div>
-
-            <div class="bgBox bgBoxEx">
-                <div class="year yearEx">
-                    <p>2017-2022</p>
-                </div>
-
-                <h1><?= t('bg_bosch_title') ?></h1>
-                <p><?= t('bg_bosch_text') ?></p>
-            </div>
-        </div>
     </div>
 </div>
