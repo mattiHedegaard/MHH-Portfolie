@@ -12,7 +12,6 @@ return [
     // Navigation Buttons
     "nav_home" => "Forside",
     "nav_projects" => "Projekter",
-    "profile_alt" => "Billede af Matti Hedegaard Hansen",
     "nav_background" => "Baggrund",
     "nav_about" => "Mere om mig",
     "nav_contact" => "Kontakt",
@@ -88,14 +87,14 @@ return [
     "a_topic2_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
     
     //Contact
-    "contact_title" => "Kontakt",
-    "contact_intro" => "Har du et spørgsmål, om et projekt eller et job, du gerne vil tale om? Så kontakt mig, så svarer jeg, så hurtigt jeg kan.",
-    "contact_email" => "E-mail",
-    "contact_linkedin" => "LinkedIn",
-    "contact_github" => "GitHub",
-    "contact_location" => "Sted",
-    "contact_location_value" => "Aalborg, Danmark",
-    "contact_lang_note" => "Du kan skrive til mig på dansk eller engelsk.",
-    "contact_phone" => "Telefon",
+    "c_title" => "Kontakt",
+    "c_intro" => "Har du et spørgsmål, om et projekt eller et job, du gerne vil tale om? Så kontakt mig, så svarer jeg, så hurtigt jeg kan.",
+    "c_email" => "E-mail",
+    "c_linkedin" => "LinkedIn",
+    "c_github" => "GitHub",
+    "c_location" => "Sted",
+    "c_location_value" => "Aalborg, Danmark",
+    "c_lang_note" => "Du kan skrive til mig på dansk eller engelsk.",
+    "c_phone" => "Telefon",
 
 ];

@@ -39,42 +39,42 @@
     <main class="contactContent">
 
         <div class="contactText">
-            <h1><?= t('contact_title') ?></h1>
-            <p class="contactIntro"><?= t('contact_intro') ?></p>
+            <h1><?= t('c_title') ?></h1>
+            <p class="contactIntro"><?= t('c_intro') ?></p>
 
             <div class="contactList">
                 <!-- TODO: replace the placeholder address and links with your own -->
                 <a class="contactItem" href="mailto:matti.hedegaard@gmail.com">
-                    <span class="contactLabel"><?= t('contact_email') ?></span>
-                    <span class="contactValue">matti.hedegaard@gmai.com</span>
+                    <span class="contactLabel"><?= t('c_email') ?></span>
+                    <span class="contactValue">matti.hedegaard@gmail.com</span>
                 </a>
 
                 <a class="contactItem" href="tel:+4512345678">
-                    <span class="contactLabel"><?= t('contact_phone') ?></span>
+                    <span class="contactLabel"><?= t('c_phone') ?></span>
                     <span class="contactValue">+45 24 40 01 57</span>
                 </a>
 
                 <a class="contactItem" href="https://www.linkedin.com/in/matti-hedegaard-37772b267/" target="_blank" rel="noopener noreferrer">
-                    <span class="contactLabel"><?= t('contact_linkedin') ?></span>
+                    <span class="contactLabel"><?= t('c_linkedin') ?></span>
                     <span class="contactValue">linkedin.com/in/matti-hedegaard</span>
                 </a>
 
                 <a class="contactItem" href="https://github.com/mattiHedegaard" target="_blank" rel="noopener noreferrer">
-                    <span class="contactLabel"><?= t('contact_github') ?></span>
+                    <span class="contactLabel"><?= t('c_github') ?></span>
                     <span class="contactValue">github.com/mattiHedegaard</span>
                 </a>
 
                 <div class="contactItem contactItemStatic">
-                    <span class="contactLabel"><?= t('contact_location') ?></span>
-                    <span class="contactValue"><?= t('contact_location_value') ?></span>
+                    <span class="contactLabel"><?= t('c_location') ?></span>
+                    <span class="contactValue"><?= t('c_location_value') ?></span>
                 </div>
             </div>
 
-            <p class="contactNote"><?= t('contact_lang_note') ?></p>
+            <p class="contactNote"><?= t('c_lang_note') ?></p>
         </div>
 
         <div class="contactPhoto">
-            <img src="images/mattiKliterne.jpg" alt="<?= t('profile_alt') ?>">
+            <img src="images/mattiKliterne.jpg" alt="Photo of Matti Hedegaard Hansen">
         </div>
 
     </main>
