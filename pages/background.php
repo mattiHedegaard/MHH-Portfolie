@@ -39,13 +39,11 @@
 
         <div class="skillGrid">
             <div class="skillGroup">
-                <h3><?= t('bg_sk_software') ?></h3>
+                <h3><?= t('bg_sk_tech') ?></h3>
                 <ul>
-                    <li><?= t('sk_programming') ?></li>
                     <li><?= t('sk_web') ?></li>
                     <li><?= t('sk_ml') ?></li>
                     <li><?= t('sk_vision') ?></li>
-                    <li><?= t('sk_unity') ?></li>
                 </ul>
             </div>
 
@@ -65,16 +63,16 @@
                     <li><?= t('sk_arduino') ?></li>
                     <li><?= t('sk_audio') ?></li>
                     <li><?= t('sk_physical') ?></li>
+                    <li><?= t('bg_sk_micro') ?></li>
                 </ul>
             </div>
 
             <div class="skillGroup">
-                <h3><?= t('bg_sk_tools') ?></h3>
+                <h3><?= t('bg_sk_network') ?></h3>
                 <ul>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_iot') ?></li>
+                    <li><?= t('sk_cybersec') ?></li>
+                    <li><?= t('sk_emulation') ?></li>
                 </ul>
             </div>
         </div>
@@ -82,22 +80,25 @@
 
     <div class="skillGrid">
             <div class="skillGroup">
-                <h3><?= t('bg_sk_') ?></h3>
+                <h3><?= t('bg_sk_tools') ?></h3>
                 <ul>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_git') ?></li>
+                    <li><?= t('sk_docker') ?></li>
+                    <li><?= t('sk_3d') ?></li>
+                    <li><?= t('sk_unity') ?></li>
+                    <li><?= t('sk_figma') ?></li>
+                    <li><?= t('sk_vscode') ?></li>
+                    <li><?= t('sk_linux') ?></li>
                 </ul>
             </div>
 
             <div class="skillGroup">
-                <h3><?= t('bg_sk_') ?></h3>
+                <h3><?= t('bg_sk_design') ?></h3>
                 <ul>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
-                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_interaction') ?></li>
+                    <li><?= t('sk_hci') ?></li>
+                    <li><?= t('sk_prototyping') ?></li>
+                    <li><?= t('sk_ui/ux') ?></li>
                 </ul>
             </div>
 
@@ -114,6 +115,7 @@
             <div class="skillGroup">
                 <h3><?= t('bg_sk_methods') ?></h3>
                 <ul>
+                    <li><?= t('sk_teams') ?></li>
                     <li><?= t('sk_scrum') ?></li>
                     <li><?= t('sk_pbl') ?></li>
                     <li><?= t('sk_userstudies') ?></li>

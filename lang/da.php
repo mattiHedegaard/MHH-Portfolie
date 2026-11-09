@@ -49,38 +49,58 @@ return [
     "bg_skills_title" => "Kompetencer",
     "bg_education" => "Uddannelse",
     "bg_experience" => "Erhverv",
-    // Skills row 2
-    "bg_sk_software" => "Software",
+    // Skills row 1
+    "bg_sk_tech" => "Teknologi",
     "bg_sk_embedded" => "Indlejrede systemer",
     "bg_sk_tools" => "Værktøjer",
     "bg_sk_pro_lan" => "Programmeringssprog",
     // Group 1
     "sk_programming" => "Programmering",
     "sk_web" => "Webudvikling",
-    "sk_ml" => "Machine Learning",
+    "sk_ml" => "Maskinelæring",
     "sk_vision" => "Computer vision",
-    "sk_unity" => "Unity",
     // Group 2
+    "sk_c_lan" => "C#, C, C++",
+    "sk_python" => "Python",
+    "sk_web_lan" => "HTML, CSS, JavaScript, PHP, JSON, jQuery",
+    "sk_database_lan" => "SQL, MongoDB",
+    // Group 3
     "sk_arduino" => "Arduino",
     "sk_audio" => "Lydbehandling",
     "sk_physical" => "Fysisk interaktion",
-    // Group 3
+    "sk_micro" => "Mikrocontrollere",
+    // Group 4
+    "sk_git" => "GitHub",
+    "sk_docker" => "Docker",
+    "sk_figma" => "Figma",
+    "sk_unity" => "Unity",
+    //skils row 2
+    "bg_sk_hardware" => "Mekanik og elektronik",
+    "bg_sk_methods" => "Arbejdsform",
+    "bg_sk_design" => "Design",
+    "bg_sk_network" => "Netværk",
+    // Group 5
+    "sk_iot" => "IoT & IIoT",
+    "sk_cybersec" => "Cybersikkerhed",
+    "sk_emulation" => "Emulering",
+    "sk_3d" => "3D-print",
+    "sk_vscode" => "VS Code",
+    "sk_linux" => "Linux",
+    // Group 6
+    "sk_interaction" => "Interaktionsdesign",
+    "sk_hci" => "Menneske-Maskine Interaktion",
+    "sk_prototyping" => "Prototyper",
+    "sk_ui/ux" => "UI/UX Design & Evaluaering",
+    // Group 7
     "sk_assembly" => "Montage",
     "sk_cabling" => "Kabling",
     "sk_commissioning" => "Idriftsættelse",
     "sk_troubleshooting" => "Fejlfinding",
-    // Group 4
-    "sk_c_lan" => "C#, C, C++",
-    "sk_python" => "Python",
-    "sk_web_lan" => "HTML, CSS, JS, PHP, JSON, jQuery",
-    "sk_database_lan" => "SQL, MongoDB",
-    //skils row 2
-    "bg_sk_hardware" => "Mekanik og elektronik",
-    "bg_sk_methods" => "Arbejdsform",
     // Group 8
     "sk_scrum" => "Scrum",
     "sk_pbl" => "Problembaseret læring",
     "sk_userstudies" => "Brugerundersøgelser",
+    "sk_teams" => "Teamarbejde",
     // Education and experience
     "bg_eux_title" => "EUX Personvognsmekaniker",
     "bg_eux_text" => "Svendebrev og studentereksamen i samme forløb, med lære hos Bosch Car Service Viborg.",
