@@ -44,6 +44,8 @@
                     <li><?= t('sk_web') ?></li>
                     <li><?= t('sk_ml') ?></li>
                     <li><?= t('sk_vision') ?></li>
+                    <li><?= t('sk_audio') ?></li>
+                    <li><?= t('sk_db') ?></li>
                 </ul>
             </div>
 
@@ -63,7 +65,7 @@
                     <li><?= t('sk_arduino') ?></li>
                     <li><?= t('sk_audio') ?></li>
                     <li><?= t('sk_physical') ?></li>
-                    <li><?= t('bg_sk_micro') ?></li>
+                    <li><?= t('sk_micro') ?></li>
                 </ul>
             </div>
 
@@ -73,6 +75,8 @@
                     <li><?= t('sk_iot') ?></li>
                     <li><?= t('sk_cybersec') ?></li>
                     <li><?= t('sk_emulation') ?></li>
+                    <li><?= t('sk_disturbuted') ?></li>
+                    <li><?= t('sk_net_com') ?></li>
                 </ul>
             </div>
         </div>
