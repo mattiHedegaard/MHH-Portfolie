@@ -42,9 +42,20 @@
                 <h3><?= t('bg_sk_software') ?></h3>
                 <ul>
                     <li><?= t('sk_programming') ?></li>
+                    <li><?= t('sk_web') ?></li>
                     <li><?= t('sk_ml') ?></li>
                     <li><?= t('sk_vision') ?></li>
                     <li><?= t('sk_unity') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_pro_lan') ?></h3>
+                <ul>
+                    <li><?= t('sk_c_lan') ?></li>
+                    <li><?= t('sk_python') ?></li>
+                    <li><?= t('sk_web_lan') ?></li>
+                    <li><?= t('sk_database_lan') ?></li>
                 </ul>
             </div>
 
@@ -54,6 +65,39 @@
                     <li><?= t('sk_arduino') ?></li>
                     <li><?= t('sk_audio') ?></li>
                     <li><?= t('sk_physical') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_tools') ?></h3>
+                <ul>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="skillGrid">
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_') ?></h3>
+                <ul>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                </ul>
+            </div>
+
+            <div class="skillGroup">
+                <h3><?= t('bg_sk_') ?></h3>
+                <ul>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
+                    <li><?= t('sk_') ?></li>
                 </ul>
             </div>
 

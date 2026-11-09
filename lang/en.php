@@ -17,15 +17,15 @@ return [
     "nav_contact" => "Contact",
 
     // Frontpage
-    "fp_text" => "Hej og velkommen til mit portfolie, her kan du se et lille overblik over min vej fra at skrue i biler til at udvikle software og indlejrede systemer.",
-    "fp_eux_title" => "EUX\nPersonvognsmekaniker",
-    "fp_eux_text" => "Min karriere startede i Viborg. Her har jeg været i lære som mekaniker hos Bosch Car Service Viborg, hvor jeg sammen med mit svendebrev også har bestået en studentereksamen.",
-    "fp_mechanic_title" => "Mekaniker Svend",
-    "fp_mechanic_text" => "Efter at jeg færdiggjorde min EUX-uddannelse, arbejde jeg som uddannet svend hos Bosch Car Service Viborg.",
-    "fp_medialogy_title" => "Medialogi",
-    "fp_medialogy_text" => "Jeg flyttede derefter til Aalborg hvor jeg har læst en bachelor i Medialogi, som er en medieteknologisk usddannelse med fokus på programmering og design.",
-    "fp_ce_title" => "Computer Ingenør",
-    "fp_ce_text" => "På nuværende tidspunkt læser jeg en kandidat til civilingør i computer teknologi med specialle i netværk og distribuerede systemer.",
+    "fp_text" => "Hi and welcome to my portfolio, here you can see a small overview of my path from working on cars to developing software and embedded systems.",
+    "fp_eux_title" => "EUX\nAutomotive Mechanic",
+    "fp_eux_text" => "my career started in Viborg. Here I was an apprentice as a mechanic at Bosch Car Service Viborg, where I completed my journeyman's certificate and also passed a high school diploma.",
+    "fp_mechanic_title" => "Certified Automotive Mechanic",
+    "fp_mechanic_text" => "After completing my EUX education, I worked as a certified mechanic at Bosch Car Service. Here I worked for about a year before starting at Aalborg University.",
+    "fp_medialogy_title" => "Medialogy",
+    "fp_medialogy_text" => "I then moved to Aalborg, where I studied Medialogy at the bachelor's level, a media technology education focusing on programming and interaction design.",
+    "fp_ce_title" => "Computer Engineer",
+    "fp_ce_text" => "I am currently studying for a master's degree in computer engineering, specializing in networking and distributed systems.",
 
     // Projects page
     "p_title" => "Projektor",
