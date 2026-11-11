@@ -29,11 +29,18 @@ return [
 
     // Projects page
     "p_title" => "Projektor",
-    "p_text" => "her er noget tekts der skal skiftes ud emd noget andet tekst da dette ikke er det der skal stå men det kommer til at blive noget bbedre tekst da det ikke er mere end bare noget der ikke skal rbuges og vi skal have gjort noget ved at det er ringe af hgelvede til.",
+    "p_text" => "Her kan du se nogle af de projekter jeg har arbejdet på, både i min fritid og i forbindelse med mit studie. For at se mere information om projekterne, kan du klikke på et af projekterne for at se mere på min GitHub side.",
+    "p_github_link" => "Du kan se alle mine projekter på min GitHub side ved at klikke her.",
+    // RC car project
     "p_rc_title" => "Fjernstyret bil - Arduino",
-    "p_rc_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
+    "p_rc_text" => "Dette project er lavet som en del af min bacheloruddannelse i Medialogi. Projektet er afleveret som eksamensprojekt til kurset 'Fysiske Prototyper', hvor vi skulle designe og bygge en prototype ved hjælp af en arduino og andre elektriske komponenter.
+    Jeg valgte at lave en fjernstyret bil, som styres via bluetooth fra en controller. Jeg valgte en fjernstyret bil fordi det gav mig mulighed for også at arbejde med mekanisk design, og gjorde det muligt at kombinere min baggrund som mekaniker med Medialogi.
+    Bilen er ikke blevet perfekt, men det er et af de projekter jeg er mest stolt af da jeg selv har designet alle mekaniske komponenter, samt kodet arduinoen og controlleren.",
+    // GMTK Game Jam 2025 project
     "p_gmtk2025_title" => "Train Wreck - GMTK GameJam 2025",
-    "p_gmtk2025_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
+    "p_gmtk2025_text" => "Dette projekt er lavet som en del af Game Makers Toolkit's Game Jam 2025, hvor jeg deltog alene. En konkurrende hvor man på 96 timer skal producere et spil fra ide til færdig produkt ud fra et tema.
+    Temaet til dette Game jam var 'Loop', og jeg valgte derfor at lave et spil hvor man styrer op til fire tog og skal sørge for at det samler passegere op og leverer dem til deres destination, hvor man bliver nød til at holde overblik og være hurtig til at reagere for at fikse skinner og sørge for at togende standser de rigtige steder.
+    Spillet er lavet in GameMaker Studio 2, hvor jeg selv har udviklet alle spil mekaniker samt lavet alle grafiske elementer.",
 
     // Background page
     "bg_education" => "Uddannelse",
@@ -137,9 +144,9 @@ return [
 
     //About
     "a_title" => "Mere om mig",
-    "a_text" => "Dette er noget tekst som skal beskrive noget men igen så er vi der hvor det ikke beskriver noget men det er som spdan ogsp ligemeget fordi det skal bare gøre at dert er noget tekst så man kan se hvad det kommer til at betyde og hvvad der kjommer til at stå når man nu bruger dette tekts.",
-    "a_topic1_title" => "noget om mig",
-    "a_topic1_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
+    "a_text" => "Her kan du læse lidt mere om mig og hvem jeg er som person, og hvad jeg går og laver når jeg ikke er på arbejde eller fordyber mig i nye projekter.",
+    "a_topic1_title" => "Hvem er jeg?",
+    "a_topic1_text" => "Jeg aner simplenthen ikke lige hvad der skal stå her lige nu men det finder jeg jo nok ud af.",
     "a_topic2_title" => "noget andet om mig",
     "a_topic2_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
     

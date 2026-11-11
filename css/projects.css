@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 50px;
+}
+
 .navigationBar {
     display: flex;
     flex-direction: row;
@@ -104,7 +108,7 @@
 
 .project img {
     height: 354px;
-    width: 354px;
+    width: auto;
     border-style: solid;
     border-color: #8DA9C4;
     margin-right: 20px;
@@ -140,4 +144,8 @@
     transform: scale(1.15);
     color: #8DA9C4;
     cursor: pointer;
+}
+
+.projectLink {
+    font-weight: 800;
 }
