@@ -122,9 +122,22 @@
 
 .projectDescription p {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .projectDescription h1 {
     font-size: 40px;
+}
+
+/*animation*/
+.projectTitle {
+    width: fit-content;
+    transform-origin: left center;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.projectTitle:hover {
+    transform: scale(1.15);
+    color: #8DA9C4;
+    cursor: pointer;
 }
