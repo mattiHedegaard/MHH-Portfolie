@@ -52,10 +52,15 @@
             <div class="skillGroup">
                 <h3><?= t('bg_sk_pro_lan') ?></h3>
                 <ul>
-                    <li><?= t('sk_c_lan') ?></li>
+                    <li><?= t('sk_cs') ?></li>
+                    <li><?= t('sk_cp') ?></li>
                     <li><?= t('sk_python') ?></li>
-                    <li><?= t('sk_web_lan') ?></li>
-                    <li><?= t('sk_database_lan') ?></li>
+                    <li><?= t('sk_html') ?></li>
+                    <li><?= t('sk_css') ?></li>
+                    <li><?= t('sk_js') ?></li>
+                    <li><?= t('sk_php') ?></li>
+                    <li><?= t('sk_json') ?></li>
+                    <li><?= t('sk_jquery') ?></li>
                 </ul>
             </div>
 
@@ -111,8 +116,9 @@
                 <ul>
                     <li><?= t('sk_assembly') ?></li>
                     <li><?= t('sk_cabling') ?></li>
-                    <li><?= t('sk_commissioning') ?></li>
+                    <li><?= t('sk_hydraulics') ?></li>
                     <li><?= t('sk_troubleshooting') ?></li>
+                    <li><?= t('sk_mec_el_design') ?></li>
                 </ul>
             </div>
 
@@ -122,7 +128,6 @@
                     <li><?= t('sk_teams') ?></li>
                     <li><?= t('sk_scrum') ?></li>
                     <li><?= t('sk_pbl') ?></li>
-                    <li><?= t('sk_userstudies') ?></li>
                 </ul>
             </div>
         </div>
@@ -136,9 +141,9 @@
             <h2 class="bgSectionTitle" id="eduTitle"><?= t('bg_education') ?></h2>
 
             <article class="entry entryEdu">
-                <span class="entryYears">2017–2022</span>
-                <h3><?= t('bg_eux_title') ?></h3>
-                <p><?= t('bg_eux_text') ?></p>
+                <span class="entryYears">2026–2028</span>
+                <h3><?= t('bg_msc_title') ?></h3>
+                <p><?= t('bg_msc_text') ?></p>
             </article>
 
             <article class="entry entryEdu">
@@ -148,10 +153,12 @@
             </article>
 
             <article class="entry entryEdu">
-                <span class="entryYears">2026–2028</span>
-                <h3><?= t('bg_msc_title') ?></h3>
-                <p><?= t('bg_msc_text') ?></p>
+                <span class="entryYears">2017–2022</span>
+                <h3><?= t('bg_eux_title') ?></h3>
+                
+                <p><?= t('bg_eux_text') ?></p>
             </article>
+            
         </section>
 
         <!--Experience-->
@@ -159,15 +166,15 @@
             <h2 class="bgSectionTitle" id="workTitle"><?= t('bg_experience') ?></h2>
 
             <article class="entry entryWork">
-                <span class="entryYears">2022–2023</span>
-                <h3><?= t('bg_bosch_title') ?></h3>
-                <p><?= t('bg_bosch_text') ?></p>
+                <span class="entryYears"><?= t('bg_liqtech_years') ?></span>
+                <h3><?= t('bg_liqtech_title') ?></h3>
+                <p><?= t('bg_liqtech_text') ?></p>
             </article>
 
             <article class="entry entryWork">
-                <span class="entryYears">2023-</span>
-                <h3><?= t('bg_liqtech_title') ?></h3>
-                <p><?= t('bg_liqtech_text') ?></p>
+                <span class="entryYears">2022–2023</span>
+                <h3><?= t('bg_bosch_title') ?></h3>
+                <p><?= t('bg_bosch_text') ?></p>
             </article>
         </section>
 

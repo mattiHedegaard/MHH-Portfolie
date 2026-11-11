@@ -61,9 +61,15 @@ return [
     "sk_db" => "Databaser",
     "sk_audio" => "Lydbehandling",
     // Group 2
-    "sk_c_lan" => "C#, C, C++",
+    "sk_cs" => "C#",
+    "sk_cp" => "C++",
     "sk_python" => "Python",
-    "sk_web_lan" => "HTML, CSS, JavaScript, PHP, JSON, jQuery",
+    "sk_css" => "CSS",
+    "sk_html" => "HTML",
+    "sk_js" => "JavaScript",
+    "sk_php" => "PHP",
+    "sk_json" => "JSON",
+    "sk_jquery" => "jQuery",
     "sk_database_lan" => "SQL, MongoDB",
     // Group 3
     "sk_arduino" => "Arduino",
@@ -97,24 +103,37 @@ return [
     // Group 7
     "sk_assembly" => "Montage",
     "sk_cabling" => "Kabling",
-    "sk_commissioning" => "Idriftsættelse",
     "sk_troubleshooting" => "Fejlfinding",
+    "sk_hydraulics" => "Hydraulik",
+    "sk_mec_el_design" => "El/Mekanisk design",
     // Group 8
     "sk_scrum" => "Scrum",
     "sk_pbl" => "Problembaseret læring",
-    "sk_userstudies" => "Brugerundersøgelser",
     "sk_teams" => "Teamarbejde",
     // Education and experience
-    "bg_eux_title" => "EUX Personvognsmekaniker",
-    "bg_eux_text" => "Svendebrev og studentereksamen i samme forløb, med lære hos Bosch Car Service Viborg.",
-    "bg_bsc_title" => "Bachelor i Medialogi",
-    "bg_bsc_text" => "Aalborg Universitet. Programmering, interaktionsdesign, maskinlæring og computer vision.",
-    "bg_msc_title" => "Kandidat i Computer Engineering",
-    "bg_msc_text" => "Aalborg Universitet. Netværk og distribuerede systemer.",
+    //EUX
+    "bg_eux_title" => "EUX Personvognsmekaniker, Mercantec Viborg",
+    "bg_eux_text" => "Som EUX-personvognsmekaniker har jeg på fem år fået svendebrev og studentereksamen i samme uddannelse.
+    Under uddannelsen har jeg lært at arbejde med mekanik, elektronik og software i biler og at arbejde struktureret og analytisk med komplekse problemstillinger.
+    Mellem skoleperioderne var jeg i lære hos Bosch Car Service Viborg, hvor jeg har opnået praktisk erfaring med fejlfinding og reparation af biler.",
+    //Bachelor
+    "bg_bsc_title" => "Bachelor i Medialogi, Aalborg Universitet",
+    "bg_bsc_text" => "Som medialog har jeg været igennem en bred vifte af emner inden for softwareudvikling, interaktionsdesign og medieteknologi.
+    Jeg har arbejdet med programmering, fullstack webudvikling, computer vision, maskinlæring og design af interaktive systemer.
+    Gennem projekter og samarbejde har jeg udviklet mine færdigheder i problemløsning, teamwork og kommunikation.",
+    //Master
+    "bg_msc_title" => "Kandidat i Computer Engineering, Aalborg Universitet",
+    "bg_msc_text" => "På nuværende tidspunkt er jeg i gang med min kandidatuddannelse i computerteknologi, hvor jeg specialiserer mig i netværk og distribuerede systemer.
+    Jeg arbejder med emner som netværksprotokoller, sikkerhed, cloud computing og distribuerede systemer.",
+    //bosch
     "bg_bosch_title" => "Mekaniker, Bosch Car Service Viborg",
-    "bg_bosch_text" => "Arbejdede som udlært svend med fejlfinding og reparation af personbiler.",
-    "bg_liqtech_title" => "LiqTech Water",
-    "bg_liqtech_text" => "Filtreringssystemer: mekanisk montage, elektrisk kabling, softwareinstallation, idriftsættelse og fejlfinding.",
+    "bg_bosch_text" => "Efter jeg færdiggjorde min EUX-uddannelse, arbejdede jeg som mekaniker hos Bosch Car Service Viborg. Her har jeg arbejdet med fejlfinding og reparation af biler, både mekanisk og elektronisk.
+    Jeg har opnået praktisk erfaring med at arbejde med komplekse systemer og har udviklet mine færdigheder i problemløsning, teamwork og kommunikation.",
+    //Liqtech
+    "bg_liqtech_title" => "Mekanisk montør, LiqTech Water",
+    "bg_liqtech_text" => "På nuværende tidspunkt har jeg et studiejob som mekanisk montør hos LiqTech Water, hvor jeg arbejder med montage af filterelementer og komponenter til vandfiltreringssystemer.
+    Selvom min titel siger mekanisk montør, hjælper jeg til i de fleste afdelinger i produktionen, herunder eletronisk montage, automation og test af systemer.",
+    "bg_liqtech_years" => "2023–NU",
 
     //About
     "a_title" => "Mere om mig",
