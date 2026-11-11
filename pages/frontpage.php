@@ -4,34 +4,34 @@
     <!--Left navigation menu div-->
     <div class="navigationBar">
         <div class="profile">
-            <img src="images/mattiKliterne.jpg" alt="Photo of Matti Hedegaard Hansen">
+            <img src="images/matti/mattiKliterne.jpg" alt="Photo of Matti Hedegaard Hansen">
             <p id="nbName"><?= t('matti_h_h') ?></p>
             <p id="nbTitle"><?= t('title') ?></p>
         </div>
 
         <!--Menu buttons-->
         <div class="navigationBtn" onclick="location.href='<?= url('frontpage') ?>'">
-            <img src="images/HomeIcon.png" alt="Home icon">
+            <img src="images/icons/HomeIcon.png" alt="Home icon">
             <p><?= t('nav_home') ?></p>
         </div>
 
         <div class="navigationBtn" onclick="location.href='<?= url('projects') ?>'">
-            <img src="images/projectIcon.png" alt="Projects icon">
+            <img src="images/icons/projectIcon.png" alt="Projects icon">
             <p><?= t('nav_projects') ?></p>
         </div>
 
         <div class="navigationBtn" onclick="location.href='<?= url('background') ?>'">
-            <img src="images/backgroundIcon.png" alt="Background icon">
+            <img src="images/icons/backgroundIcon.png" alt="Background icon">
             <p><?= t('nav_background') ?></p>
         </div>
 
         <div class="navigationBtn" onclick="location.href='<?= url('about') ?>'">
-            <img src="images/aboutIcon.png" alt="About icon">
+            <img src="images/icons/aboutIcon.png" alt="About icon">
             <p><?= t('nav_about') ?></p>
         </div>
 
         <div class="navigationBtn" onclick="location.href='<?= url('contact') ?>'">
-            <img src="images/contactIcon.png" alt="Contact icon">
+            <img src="images/icons/contactIcon.png" alt="Contact icon">
             <p><?= t('nav_contact') ?></p>
         </div>
     </div>
@@ -54,7 +54,7 @@
             </div>
 
             <!--First icon-->
-            <img class="timelineImage" src="images/mekanikerIcon.png" alt="EUX Icon">
+            <img class="timelineImage" src="images/icons/mekanikerIcon.png" alt="EUX Icon">
 
             <!--second box (vertical)-->
             <div class="timelineTextbox">
@@ -63,7 +63,7 @@
             </div>
 
             <!--second image-->
-            <img class="timelineImage" src="images/CEIcon.png" alt="Medialogy Icon">
+            <img class="timelineImage" src="images/icons/CEIcon.png" alt="Medialogy Icon">
         </div>    
 
         
@@ -75,28 +75,28 @@
             <!--First year div-->
             <div>
                 <p>2017-2022</p>
-                <img src="images/blueTimelineBox.png">
+                <img src="images/icons/blueTimelineBox.png">
                 <p></p>
             </div>
 
             <!--second year div-->
             <div>
                 <p></p>
-                <img src="images/lightblueTimelineBox.png">
+                <img src="images/icons/lightblueTimelineBox.png">
                 <p>2022-2023</p>
             </div>
 
             <!--third year div-->
             <div>
                 <p>2023-2026</p>
-                <img src="images/blueTimelineBox.png">
+                <img src="images/icons/blueTimelineBox.png">
                 <p></p>
             </div>
 
             <!--fourth year div-->
             <div>
                 <p></p>
-                <img src="images/lightblueTimelineBox.png">
+                <img src="images/icons/lightblueTimelineBox.png">
                 <p>2026-2028</p>
             </div>
         </div>
@@ -104,7 +104,7 @@
         <!--Bottom of timeline (vertical)-->
         <div class="timelineRow2 timelineRow">
             <!--First icon-->
-            <img class="timelineImage" src="images/EUXIcon.png" alt="EUX Icon" style="width: 185px; height: auto;">
+            <img class="timelineImage" src="images/icons/EUXIcon.png" alt="EUX Icon" style="width: 185px; height: auto;">
 
             <!--first box (vertical)-->
             <div class="timelineTextbox row2">
@@ -113,7 +113,7 @@
             </div>
 
             <!--second image-->
-            <img class="timelineImage" src="images/medialogyIcon.png" alt="Computer ingenør Icon">
+            <img class="timelineImage" src="images/icons/medialogyIcon.png" alt="Computer ingenør Icon">
 
             <!--second box (vertical)-->
             <div class="timelineTextbox row2">
