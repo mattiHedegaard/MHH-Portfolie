@@ -31,6 +31,11 @@ return [
     "p_title" => "Projektor",
     "p_text" => "Her kan du se nogle af de projekter jeg har arbejdet på, både i min fritid og i forbindelse med mit studie. For at se mere information om projekterne, kan du klikke på et af projekterne for at se mere på min GitHub side.",
     "p_github_link" => "Du kan se alle mine projekter på min GitHub side ved at klikke her.",
+    // Weather station project
+    "p_ws_title" => "Vejrstation - ESP32",
+    "p_ws_text" => "Dette project er lavet uden for studiet, og er lavet på grund af min interesse for programmering af indlejrede systemer. Projektet er lavet med en ESP32-S3, og består af en ENS160+AHT21 til at måle luftkvalitet samt temperatur og luftfugtighed. Derudover henter den vejrinformation fra Open-Meteo.com's gratis API, som sammen med rum informationerne bliver fremvist på et e-ink display.",
+    "p_portfolio_title" => "Portfolio - Hjemmeserver",
+    "p_portfolio_text" => "her er noget text om mit portfoile og server",
     // RC car project
     "p_rc_title" => "Fjernstyret bil - Arduino",
     "p_rc_text" => "Dette project er lavet som en del af min bacheloruddannelse i Medialogi. Projektet er afleveret som eksamensprojekt til kurset 'Fysiske Prototyper', hvor vi skulle designe og bygge en prototype ved hjælp af en arduino og andre elektriske komponenter.
