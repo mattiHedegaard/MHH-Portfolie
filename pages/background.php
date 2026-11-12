@@ -54,6 +54,7 @@
                 <ul>
                     <li><?= t('sk_cs') ?></li>
                     <li><?= t('sk_cp') ?></li>
+                    <li><?= t('sk_c') ?></li>
                     <li><?= t('sk_python') ?></li>
                     <li><?= t('sk_html') ?></li>
                     <li><?= t('sk_css') ?></li>

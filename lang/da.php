@@ -70,6 +70,7 @@ return [
     // Group 2
     "sk_cs" => "C#",
     "sk_cp" => "C++",
+    "sk_c" => "C",
     "sk_python" => "Python",
     "sk_css" => "CSS",
     "sk_html" => "HTML",
