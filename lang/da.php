@@ -33,9 +33,20 @@ return [
     "p_github_link" => "Du kan se alle mine projekter på min GitHub side ved at klikke her.",
     // Weather station project
     "p_ws_title" => "Vejrstation - ESP32",
-    "p_ws_text" => "Dette project er lavet uden for studiet, og er lavet på grund af min interesse for programmering af indlejrede systemer. Projektet er lavet med en ESP32-S3, og består af en ENS160+AHT21 til at måle luftkvalitet samt temperatur og luftfugtighed. Derudover henter den vejrinformation fra Open-Meteo.com's gratis API, som sammen med rum informationerne bliver fremvist på et e-ink display.",
-    "p_portfolio_title" => "Portfolio - Hjemmeserver",
-    "p_portfolio_text" => "her er noget text om mit portfoile og server",
+    "p_ws_text" => "Dette project er lavet uden for studiet, og er lavet på grund af min interesse for programmering af indlejrede systemer. Projektet er lavet med en ESP32-S3, og består af en ENS160+AHT21 til at måle luftkvalitet samt temperatur og luftfugtighed. Derudover henter den vejrinformation fra Open-Meteo.com's gratis API, som sammen med rum informationerne bliver fremvist på et e-ink display.
+    Billedet viser prototypen i sit nuværende stadie, men planen er, at den skal laves til et færdigt produkt ved hjælp af PCB-design og 3D-print.",
+    // Portfolio & server
+    "p_portfolio_title" => "Hjemmeserver & Portfolio",
+    "p_portfolio_text" => "Dette portflie projekt startede som et serverprojekt.
+    Serveren er sat op med docker environment, og burges blandt andet til fildeling for mig og mine kamerater og en Minecraft server.
+    Jeg har sat en server op med Ubuntu Server men en gammel bærbar jeg ikke brugte, hvilket skabte lysten til at lave min egen mini-pc. I den forbindelse har jeg skilt bærbaren ad og designet og 3D-printet et custom case til dem som man kan se på billedet.",
+    //ghost patrole
+    "p_ghost_title" => "Ghost Patrole - Semester Projekt",
+    "p_ghost_text" => "Dette projekt er lavet som semesterprojekt på 5. semester som Medialogistuderende. Projektet handlede om at distrahere børn under nåleoperationer som blodprøvetagning. Det består af et VR-spil, Ghost Patrol, hvor børn skal fange spøgelser, mens de bærer specialudviklede haptiske armbånd.
+    Projektet tager udgangspunkt i Gate Control Theory, som populært sagt handler om, at vibrationer kan dæmpe smertesignaler til hjernen. Med kombinationen af armbåndene og VR-spillet fandt vi en forskel i oplevet smerte med og uden vibrationer.
+    Du er også velkommen til at se repositoriet for de haptiske armbånd, der blev brugt i projektet.",
+    // blank
+
     // RC car project
     "p_rc_title" => "Fjernstyret bil - Arduino",
     "p_rc_text" => "Dette project er lavet som en del af min bacheloruddannelse i Medialogi. Projektet er afleveret som eksamensprojekt til kurset 'Fysiske Prototyper', hvor vi skulle designe og bygge en prototype ved hjælp af en arduino og andre elektriske komponenter.
