@@ -37,15 +37,15 @@
     <div class="about">
         <img src="images/icons/EUXIcon.png" alt="">
         <div class="aboutDescription">
-            <h1 class="aboutTitle"><?= t('a_topic1_title') ?></h1>
-            <p class="aboutText"><?= t('a_topic1_text') ?></p>
+            <h1 class="aboutTitle"><?= t('a_who_title') ?></h1>
+            <p class="aboutText"><?= t('a_who_text') ?></p>
         </div>
     </div>
 
     <div class="about">
         <div class="aboutDescription">
-            <h1 class="aboutTitle"><?= t('a_topic2_title') ?></h1>
-            <p class="aboutText"><?= t('a_topic2_text') ?></p>
+            <h1 class="aboutTitle"><?= t('a_nature_title') ?></h1>
+            <p class="aboutText"><?= t('a_nature_text') ?></p>
         </div>
         <img src="images/icons/EUXIcon.png" alt="">
     </div>

@@ -162,10 +162,10 @@ return [
     //About
     "a_title" => "Mere om mig",
     "a_text" => "Her kan du læse lidt mere om mig og hvem jeg er som person, og hvad jeg går og laver når jeg ikke er på arbejde eller fordyber mig i nye projekter.",
-    "a_topic1_title" => "Hvem er jeg?",
-    "a_topic1_text" => "Jeg aner simplenthen ikke lige hvad der skal stå her lige nu men det finder jeg jo nok ud af.",
-    "a_topic2_title" => "noget andet om mig",
-    "a_topic2_text" => "dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen. dette er igen noget tekst som ikke er det der skal stå mer men noget tekts der vil blive erstattet engang jeg gider at skrive noget rigtig tekst til denne side, men det gider jeg ike lige nu så derfor bliver det kopiret igen og igen.",
+    "a_who_title" => "Hvem er jeg?",
+    "a_who_text" => "Jeg er nysgerrig af natur og elsker at sætte mig ind i nye ting. Jeg har derfor mange forskellige hobbyer, og listen vokser altid, da jeg sjældent lægger ting fra mig, hvis jeg først har besluttet mig for at finde ud af, hvordan det virker, eller hvad det er for noget.",
+    "a_nature_title" => "Natur",
+    "a_nature_text" => "Jeg elsker naturen og den friske luft, og jeg kommer gerne udenfor, når jeg har mulighed for det. Derfor har jeg taget jagttegn, som jeg bruger til at komme ud i skoven og nyde de kolde vintermorgener og tidelige sommer morgener. Nogle gange tager jeg af sted alene, andre gange sammen med kammerater.",
     
     //Contact
     "c_title" => "Kontakt",
