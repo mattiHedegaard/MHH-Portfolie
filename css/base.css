@@ -33,7 +33,10 @@
     gap: 10px;
     z-index: 100;
     color: #EEF4ED;
-    cursor: pointer;
+}
+
+.topButtons:hover {
+  cursor: pointer;
 }
 
 body {
