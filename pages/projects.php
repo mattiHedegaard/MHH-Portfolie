@@ -66,10 +66,10 @@
     <!---->
     <div class="project">
         <div class="projectDescription">
-            <h1 class="projectTitle" onclick="window.open('https://github.com/mattiHedegaard/MHH-Portfolie', '_blank')"><?= t('p_portfolio_title') ?></h1>
-            <p class="projectText"><?= t('p_portfolio_text') ?></p>
+            <h1 class="projectTitle" onclick="window.open('https://github.com/mattiHedegaard/But-Worse-mini-project', '_blank')"><?= t('p_bw_title') ?></h1>
+            <p class="projectText"><?= t('p_bw_text') ?></p>
         </div>
-        <img src="images\icons\EUXIcon.png" alt="Image of the home server.">
+        <img src="images\projects\bw\bw.png" alt="Image of Lost in Random cover and screenshot from my but worse project">
     </div>
 
     <!--RC Car-->

@@ -74,7 +74,7 @@
         </div>
 
         <div class="contactPhoto">
-            <img src="images/matti/mattiKliterne.jpg" alt="Photo of Matti Hedegaard Hansen">
+            <img src="images\Matti\mattiHavn.jpg" alt="Photo of Matti Hedegaard Hansen">
         </div>
 
     </main>
