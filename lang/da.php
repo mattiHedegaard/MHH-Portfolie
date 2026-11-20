@@ -46,7 +46,7 @@ return [
     Projektet tager udgangspunkt i Gate Control Theory, som populært sagt handler om, at vibrationer kan dæmpe smertesignaler til hjernen. Med kombinationen af armbåndene og VR-spillet fandt vi en forskel i oplevet smerte med og uden vibrationer.
     Du er også velkommen til at se repositoriet for de haptiske armbånd, der blev brugt i projektet.",
     // But Worse
-    "p_bw_title" => "But Worse",
+    "p_bw_title" => "But Worse - Lost in Random",
     "p_bw_text" => "Dette projekt blev lavet som en del af kurset Programmering af interaktive 3D-verdener, hvor vi skulle lave en 'But Worse'-kopi af et valgfrit spil.
     Her valgte jeg Lost In Random, et spil udviklet af Zoink, hvor man spiller som Even, der er på en rejse gennem Kingdom of Random for at finde sin søster Odd.",
     // RC car project

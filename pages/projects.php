@@ -63,21 +63,21 @@
         </div>
     </div>
 
-    <!---->
-    <div class="project">
-        <div class="projectDescription">
-            <h1 class="projectTitle" onclick="window.open('https://github.com/mattiHedegaard/But-Worse-mini-project', '_blank')"><?= t('p_bw_title') ?></h1>
-            <p class="projectText"><?= t('p_bw_text') ?></p>
-        </div>
-        <img src="images\projects\bw\bw.png" alt="Image of Lost in Random cover and screenshot from my but worse project">
-    </div>
-
     <!--RC Car-->
     <div class="project">
-        <img src="images\projects\rc\finalRC.png" alt="Photo of final protoype of the RC car project">
         <div class="projectDescription">
             <h1 class="projectTitle" onclick="window.open('https://github.com/mattiHedegaard/RCcar-arduino', '_blank')"><?= t('p_rc_title') ?></h1>
             <p class="projectText"><?= t('p_rc_text') ?></p>
+        </div>
+        <img src="images\projects\rc\finalRC.png" alt="Photo of final protoype of the RC car project">
+    </div>
+
+    <!--But Worse-->
+    <div class="project">
+        <img src="images\projects\bw\bw.png" alt="Image of Lost in Random cover and screenshot from my but worse project">
+        <div class="projectDescription">
+            <h1 class="projectTitle" onclick="window.open('https://github.com/mattiHedegaard/But-Worse-mini-project', '_blank')"><?= t('p_bw_title') ?></h1>
+            <p class="projectText"><?= t('p_bw_text') ?></p>
         </div>
     </div>
 
