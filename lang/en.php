@@ -20,7 +20,7 @@ return [
     "fp_text" => "Hello and welcome to my portfolio, where you can see a short overview of my path from working on cars to developing software and embedded systems.",
     "fp_eux_title" => "EUX\nAutomotive Mechanic",
     "fp_eux_text" => "My career started in Viborg. Here I was an apprentice mechanic at Bosch Car Service Viborg, where I passed an upper secondary school diploma alongside my journeyman's certificate.",
-    "fp_mechanic_title" => "Journeyman Mechanic",
+    "fp_mechanic_title" => "Mechanic",
     "fp_mechanic_text" => "After I finished my EUX education, I worked as a qualified journeyman at Bosch Car Service. I worked there for about a year before I started at Aalborg University.",
     "fp_medialogy_title" => "Medialogy",
     "fp_medialogy_text" => "I then moved to Aalborg, where I studied Medialogy at bachelor's level, a media technology programme with a focus on programming and interaction design.",
