@@ -17,7 +17,7 @@ return [
     "nav_contact" => "Contact",
 
     // Frontpage
-    "fp_text" => "Hello and welcome to my portfolio, where you can see a short overview of my path from working on cars to developing software and embedded systems.",
+    "fp_text" => "Hello and welcome to my portfolio, here you can see a short overview of my path from working on cars to developing software and embedded systems.",
     "fp_eux_title" => "EUX\nAutomotive Mechanic",
     "fp_eux_text" => "My career started in Viborg. Here I was an apprentice mechanic at Bosch Car Service Viborg, where I passed an upper secondary school diploma alongside my journeyman's certificate.",
     "fp_mechanic_title" => "Mechanic",
