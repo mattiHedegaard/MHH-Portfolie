@@ -3,7 +3,7 @@
     <!--Left navigation menu-->
     <div class="navigationBar">
         <div class="profile">
-            <img src="images/matti/mattiKliterne.jpg" alt="<?= t('profile_alt') ?>">
+            <img src="images\Matti\mattiKliterne.jpg" alt="<?= t('profile_alt') ?>">
             <p id="nbName"><?= t('matti_h_h') ?></p>
             <p id="nbTitle"><?= t('title') ?></p>
         </div>
