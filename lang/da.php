@@ -34,7 +34,7 @@ return [
     // Weather station project
     "p_ws_title" => "Vejrstation - ESP32",
     "p_ws_text" => "Dette projekt er lavet uden for studiet og er lavet på grund af min interesse for programmering af indlejrede systemer. Projektet er lavet med en ESP32-S3 og består af en ENS160+AHT21 til at måle luftkvalitet samt temperatur og luftfugtighed. Derudover henter den vejrinformation fra Open-Meteo.com's gratis API, som sammen med rumoplysningerne bliver fremvist på et e-ink-display.
-    Billedet viser prototypen i sit nuværende stadium, men planen er, at den skal laves til et færdigt produkt ved hjælp af PCB-design og 3D-print.",
+    Billedet viser prototypen i sit nuværende stadie, men planen er, at den skal laves til et færdigt produkt ved hjælp af PCB-design og 3D-print.",
     // Portfolio & server
     "p_portfolio_title" => "Hjemmeserver & Portfolio",
     "p_portfolio_text" => "Dette portfolioprojekt startede som et serverprojekt.
