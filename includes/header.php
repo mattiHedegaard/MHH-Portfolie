@@ -3,7 +3,7 @@
     <head>
         <title>Matti Hedegaard - Portfolie</title>
         <link rel="stylesheet" href="css/base.css?v=2">
-        <link rel="stylesheet" href="css/<?= $page ?>.css">
+        <link rel="stylesheet" href="css/<?= $page ?>.css?v=2">
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
         <script src="js/main.js" defer></script>
         <script src="js/<?= $page ?>.js" defer></script>
