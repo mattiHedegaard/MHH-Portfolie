@@ -43,13 +43,12 @@
             <p class="contactIntro"><?= t('c_intro') ?></p>
 
             <div class="contactList">
-                <!-- TODO: replace the placeholder address and links with your own -->
                 <a class="contactItem" href="mailto:matti.hedegaard@gmail.com">
                     <span class="contactLabel"><?= t('c_email') ?></span>
                     <span class="contactValue">matti.hedegaard@gmail.com</span>
                 </a>
 
-                <a class="contactItem" href="tel:+4512345678">
+                <a class="contactItem" href="tel:+4524400157">
                     <span class="contactLabel"><?= t('c_phone') ?></span>
                     <span class="contactValue">+45 24 40 01 57</span>
                 </a>
