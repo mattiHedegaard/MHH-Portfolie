@@ -188,7 +188,7 @@ a.contactItem:focus-visible {
 .contactPhoto img {
     display: block;
     width: 440px;
-    height: 580px;
+    height: 612px;
     object-fit: cover;
     object-position: center;                    
     box-sizing: border-box;

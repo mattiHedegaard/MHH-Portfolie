@@ -17,7 +17,7 @@ return [
     "nav_contact" => "Kontakt",
 
     // Frontpage
-    "fp_text" => "Hej og velkommen til mit portfolio, her kan du se et lille overblik over min vej fra at skrue i biler til at udvikle software og indlejrede systemer.",
+    "fp_text" => "Hej og velkommen til min portfolio, her kan du se et overblik over min vej fra at skrue i biler til at udvikle software og indlejrede systemer.",
     "fp_eux_title" => "EUX\nPersonvognsmekaniker",
     "fp_eux_text" => "Min karriere startede i Viborg. Her var jeg i lære som mekaniker hos Bosch Car Service Viborg, hvor jeg sammen med mit svendebrev også bestod en studentereksamen.",
     "fp_mechanic_title" => "Mekanikersvend",
@@ -175,7 +175,7 @@ return [
 
     //Contact
     "c_title" => "Kontakt",
-    "c_intro" => "Har du et spørgsmål om et projekt eller et job, du gerne vil tale om? Så kontakt mig, så svarer jeg så hurtigt, jeg kan.",
+    "c_intro" => "Vil du vide mere om et af mine projekter, eller har du et spørgsmål? Skriv til mig eller ring til mig, så svarer jeg, så hurtigt jeg kan.",
     "c_email" => "E-mail",
     "c_linkedin" => "LinkedIn",
     "c_github" => "GitHub",

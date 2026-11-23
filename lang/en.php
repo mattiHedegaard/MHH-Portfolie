@@ -175,7 +175,7 @@ return [
 
     //Contact
     "c_title" => "Contact",
-    "c_intro" => "Do you have a question about a project or a job you would like to talk about? Then contact me, and I will reply as quickly as I can.",
+    "c_intro" => "Want to know more about one of my projects, or do you have a question? Send me a message or give me a call, and I'll get back to you as soon as I can.",
     "c_email" => "E-mail",
     "c_linkedin" => "LinkedIn",
     "c_github" => "GitHub",
