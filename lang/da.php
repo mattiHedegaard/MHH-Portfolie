@@ -1,6 +1,10 @@
 <?php
 /* <?= t('') ?> */
 return [
+    //codes
+    "404_msg" => "404 - siden blev ikke fundet",
+    "404_frontpage" => "Forside",
+
     // Name and title
     "matti_h_h" => "Matti Hedegaard Hansen",
     "matti_h" => "Matti Hedegaard",
