@@ -65,7 +65,7 @@ return [
     Spillet er lavet i GameMaker Studio 2, hvor jeg selv har udviklet alle spilmekanikker samt lavet alle grafiske elementer.",
     //techathon 2026
     "p_tech26_title" => "Techathon 2026 - Best Concept/Product",
-    "p_tech26_text" => "I november 2026 deltog jeg sammen med min studiegruppe i et hackathon i Jelling. Opgaven var at komme op med en idé til en udstilling i Kongernes Jelling ved hjælp af Bluetooth. Vi tænkte: 'Hvad er bedre end at kunne snakke med Bluetooth himself?' og lavede derfor Heimdalls horn, Gjallarhornet.
+    "p_tech26_text" => "I november 2026 deltog jeg sammen med min studiegruppe i et hackathon i samarbejde med Samsung og Kongernes Jelling. Opgaven var at komme op med en idé til en udstilling i Kongernes Jelling ved hjælp af Bluetooth. Vi tænkte: 'Hvad er bedre end at kunne snakke med Bluetooth himself?' og lavede derfor Heimdalls horn, Gjallarhornet.
     Ved bestemte udstillinger ringede Harald Blåtand til én og fortalte om dem. Vi havde også koblet hornet til Gemini API'et, så man kunne have en samtale med Harald.
     Efter 48 timers intenst og hårdt arbejde vandt vi en af de fire kategorier, 'Best Concept/Product', og det er vi meget stolte af.",
 
