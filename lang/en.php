@@ -64,7 +64,7 @@ return [
     The theme for this game jam was 'Loop', so I chose to make a game where you control up to four trains and have to make sure they pick up passengers and deliver them to their destination, and you have to keep an overview and react quickly to fix tracks and make sure the trains stop at the right places.
     The game was made in GameMaker Studio 2, where I developed all the game mechanics myself as well as made all the graphical elements.",
     // techathon 2026
-    "p_tech26_text" => "In November 2026, my study group and I took part in a hackathon in Jelling. The task was to come up with an idea for an exhibition at the Kongernes Jelling museum using Bluetooth. We thought, 'What's better than being able to talk to Bluetooth himself?' and so we built Heimdall's horn, Gjallarhorn.
+    "p_tech26_text" => "In November 2026, my study group and I took part in a hackathon in colaboration with Samsung and Kongernes Jelling. The task was to come up with an idea for an exhibition at the Kongernes Jelling museum using Bluetooth. We thought, 'What's better than being able to talk to Bluetooth himself?' and so we built Heimdall's horn, Gjallarhorn.
     At certain exhibits, Harald Bluetooth would call you and tell you about them. We also connected the horn to the Gemini API, so you could have a conversation with Harald.
     After 48 hours of intense, hard work, we won one of the four categories, 'Best Concept/Product', and we're very proud of it.",
 
