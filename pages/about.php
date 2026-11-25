@@ -65,4 +65,12 @@
         </div>
         <img src="images\about\jagt.jpg" alt="Image of me with my first deer from hunting.">
     </div>
+
+    <div class="about">
+        <img src="images\about\pc.png" alt="Image showing different computer hobbies">
+        <div class="aboutDescription">
+            <h1 class="aboutTitle"><?= t('a_computer_title') ?></h1>
+            <p class="aboutText"><?= t('a_computer_text') ?></p>
+        </div>
+    </div>
 </div>

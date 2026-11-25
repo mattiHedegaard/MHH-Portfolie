@@ -63,6 +63,11 @@ return [
     "p_gmtk2025_text" => "Dette projekt er lavet som en del af Game Maker's Toolkit Game Jam 2025, hvor jeg deltog alene. En konkurrence, hvor man på 96 timer skal producere et spil fra idé til færdigt produkt ud fra et tema.
     Temaet til denne game jam var 'Loop', og jeg valgte derfor at lave et spil, hvor man styrer op til fire tog og skal sørge for, at de samler passagerer op og leverer dem til deres destination, og man bliver nødt til at holde overblik og være hurtig til at reagere for at fikse skinner og sørge for, at togene standser de rigtige steder.
     Spillet er lavet i GameMaker Studio 2, hvor jeg selv har udviklet alle spilmekanikker samt lavet alle grafiske elementer.",
+    //techathon 2026
+    "p_tech26_title" => "Techathon 2026 - Best Concept/Product",
+    "p_tech26_text" => "I november 2026 deltog jeg sammen med min studiegruppe i et hackathon i Jelling. Opgaven var at komme op med en idé til en udstilling i Kongernes Jelling ved hjælp af Bluetooth. Vi tænkte: 'Hvad er bedre end at kunne snakke med Bluetooth himself?' og lavede derfor Heimdalls horn, Gjallarhornet.
+    Ved bestemte udstillinger ringede Harald Blåtand til én og fortalte om dem. Vi havde også koblet hornet til Gemini API'et, så man kunne have en samtale med Harald.
+    Efter 48 timers intenst og hårdt arbejde vandt vi en af de fire kategorier, 'Best Concept/Product', og det er vi meget stolte af.",
 
     // Background page
     "bg_education" => "Uddannelse",
@@ -176,6 +181,9 @@ return [
     Derudover har både jeg og min forlovede en Suzuki DM50 Samurai, som jeg passer og plejer, så de kan komme på tur rundt i Jylland om sommeren, både med Kirsten og mine kammerater.",
     "a_nature_title" => "Natur & Vildt",
     "a_nature_text" => "Jeg elsker naturen og den friske luft, og jeg kommer gerne udenfor, når jeg har mulighed for det. Derfor har jeg taget jagttegn, som jeg bruger til at komme ud i skoven og nyde de kolde vintermorgener og tidlige sommermorgener. Nogle gange tager jeg af sted alene, andre gange sammen med kammerater.",
+    "a_computer_title" => "Foran Skærmen",
+    "a_computer_text" => "Jeg bruger meget tid foran computeren. Det er her, de fleste af mine projekter tager form, men det er også her, jeg spiller. Jeg kører simulatorløb i både rallybiler og Le Mans-biler, og jeg kan godt lide de gode historier i singleplayer-spil.
+    I multiplayer foretrækker jeg de mere skøre og sjove spil, som jeg spiller sammen med mine kammerater. De bor rundt omkring i hele Danmark, så onlineverdenen hjælper os med at holde kontakten og have det sjovt sammen på trods af afstanden.",
 
     //Contact
     "c_title" => "Kontakt",

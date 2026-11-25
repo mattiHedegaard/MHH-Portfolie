@@ -36,6 +36,15 @@
     </div>
 
     <!--projects-->
+    <!--techathon 2026-->
+    <div class="project">
+        <div class="projectDescription">
+            <h1 class="projectTitle" onclick="window.open('https://github.com/MadelaineNat/Techathon', '_blank')"><?= t('p_tech26_title') ?></h1>
+            <p class="projectText"><?= t('p_tech26_text') ?></p>
+        </div>
+        <img src="images\projects\techathon\horn.jpg" alt="Photo of the horn which one 'Best Concept/Product'.">
+    </div>
+
     <!--weatherstaion-->
     <div class="project">
         <img src="images\projects\weather_station\weather_station_prototype.jpg" alt="Photo of fthe weather station prototype.">

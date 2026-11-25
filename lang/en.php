@@ -63,6 +63,10 @@ return [
     "p_gmtk2025_text" => "This project was made as part of Game Maker's Toolkit Game Jam 2025, where I participated alone. It is a competition where you have to produce a game from idea to finished product in 96 hours, based on a theme.
     The theme for this game jam was 'Loop', so I chose to make a game where you control up to four trains and have to make sure they pick up passengers and deliver them to their destination, and you have to keep an overview and react quickly to fix tracks and make sure the trains stop at the right places.
     The game was made in GameMaker Studio 2, where I developed all the game mechanics myself as well as made all the graphical elements.",
+    // techathon 2026
+    "p_tech26_text" => "In November 2026, my study group and I took part in a hackathon in Jelling. The task was to come up with an idea for an exhibition at the Kongernes Jelling museum using Bluetooth. We thought, 'What's better than being able to talk to Bluetooth himself?' and so we built Heimdall's horn, Gjallarhorn.
+    At certain exhibits, Harald Bluetooth would call you and tell you about them. We also connected the horn to the Gemini API, so you could have a conversation with Harald.
+    After 48 hours of intense, hard work, we won one of the four categories, 'Best Concept/Product', and we're very proud of it.",
 
     // Background page
     "bg_education" => "Education",
@@ -176,6 +180,9 @@ return [
     In addition, both my fiancée and I have a Suzuki DM50 Samurai, which I maintain and look after so they can go on trips around Jutland in the summer, both with Kirsten and with my friends.",
     "a_nature_title" => "Nature & Wildlife",
     "a_nature_text" => "I love nature and the fresh air, and I happily go outside whenever I get the chance. That is why I have taken a hunting licence, which I use to get out into the forest and enjoy the cold winter mornings and early summer mornings. Sometimes I go out alone, other times with friends.",
+    "a_computer_title" => "In Front of the Screen",
+    "a_computer_text" => "I spend a lot of time at my computer. It's where most of my projects take shape, but it's also where I play games. I do sim racing, both in rally cars and Le Mans cars, and I enjoy the good stories in single-player games.
+    In multiplayer I prefer the goofier, more fun games, which I play with my friends. They live all over Denmark, so the online world helps us stay in touch and have fun together despite the distance.",
 
     //Contact
     "c_title" => "Contact",
